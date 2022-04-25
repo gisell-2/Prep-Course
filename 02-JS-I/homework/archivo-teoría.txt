@@ -1,0 +1,54 @@
+ #VARIABLE: Nos sirve para guardar algo, y luego poder  usarlo más tarde. Se lo podría comparar con un 
+ alajero en el cual, un artesano guarda sus piedras para luego trabajar en los collares que posteriormente 
+ venderá
+Para crear una variable en JavaScrip debemos seguir estos pasos:
+- usamos la palabra clave "var"( las palabras claves las usa el lenguaje de JS para indicar algo).
+-Dejamos un espacio.
+-Colocamos el nombre de la variable.
+¿cómo declaramos una variable?
+Existen tres formas: var, let y const.
+-var: Es una palabra clave para "variable". Con ella se la declara en ES5(versión de JS más usada)
+ejemplo- var nombre = 'Silvia'
+-let: Está palabra clave la utilizamos en ES6(versión nueva, poco usada)
+ejemplo- let apellido = 'Abregu'
+const: Es una variable que no se podrá cambiar.(ES6)
+ejemplo- const comidafavorita = 'Pizza'
+
+#STRINGS: Son bloques de texto, es decir, cualquier texto que encontremos entre comillas simples('')
+o dobles("") es en definitiva un strings. Se lo podría comparar con una cadena, en la cual cada eslabon 
+es un número o una letra.
+#FUNCION: Las funciones son objetos llamados callable objects, se necesitan las funciones para calcular,
+cambiarlas, hacer algo con las variables. Si recordamos el ejemplo del artesano, en este caso tendríamos 
+un ayudante al que le dejamos las instrucciones en un cuaderno, y con ellas esté sujeto realiza algo,
+empleando algunos objetos del alajero. 
+Una función comenzará con la palabra clave 'funcion', luego debes escribir el nombre de la 
+función , para finalizar abrir y cerar paréntesis, llave. En está última es donde debes colocar todo
+el código a ejecutar( instrucciones anotadas en el cuaderno que debe seguir nuestro ayudante).
+por ejemplo- 
+funcion logHola(){
+    console.log(hola);
+}
+logHola();
+En este ejemplo declaramos una función  'logHola' y la configuramos en 'console.log('hola). Entonces 
+podemos ver que para ejecutar esta función, necesitamos escribir el nombre y los paréntesis. Está es la
+sintaxis para ejecutar una función. Una función siempre necesita paréntesis para ejecutarse.
+
+#ARGUMENTOS: Las variables que necesitan las funciones se denominan argumentos. 
+Si agregamos una variable a los paréntesis cuando declaramos una función, podemos usar esta variable 
+dentro de nuestra función. Podemos agregar muchos argumentos si colocamos una coma entre ellos. Los 
+argumentos, vendrían a ser como las materias primas de ese artesano.
+
+#Return: Es una declaración, la misma le indica a la función que es lo que debe devolver, y también que
+es el momento de detener la lectura de está. Sería como cuando tu profe te da una actividad, y en algún 
+momento de la clase te pregunta ¿cómo vas?(return), en ese instante vos le mostras lo que hiciste(lo que
+te devuelve la función), si todo va bien, se continua trabajando con las consignas( leyendo el código), 
+también puede pasar que no tengas que realizar más trabajos, o que lo realizado hasta ahora sea suficiente,
+entonces lo que hace return es detener la lectura del código y devolver algo.
+
+#Declaraciones if: if es una palabra clave, nos sirve para colocar en nuestra función una condición, así
+podemos saber si algo es verdadero o falso. Al igual que nuestros padres nos dan permiso para una salida,
+pero antes nos condicionan diciendo: Solo tenes permiso si, aprobas matemáticas.  En definitiva, lo que
+nos devuelva la función dependerá de la condición agregada con el if.
+
+Valores Boolean: Es un tipo de dato, representa la lógica binaria, es decir de dos valores. En JS se observa
+true y false.
